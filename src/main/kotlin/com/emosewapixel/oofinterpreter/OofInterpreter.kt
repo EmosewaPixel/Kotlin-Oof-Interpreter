@@ -100,7 +100,7 @@ enum class Token {
 }
 
 fun tokenize(code: String): List<Token> {
-    val filtered = code.filterNot { it == 'O' && it == 'o' && it == 'F' && it == 'f' }
+    val filtered = code.filter { it == 'O' || it == 'o' || it == 'F' || it == 'f' }
     val result = mutableListOf<Token>()
     for (x in filtered.indices step 3) result += tokenMap[filtered.substring(x, x + 3)]
         ?: throw IllegalStateException("Unknown Command: ${filtered.substring(x, x + 3)}")
