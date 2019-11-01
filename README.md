@@ -2,7 +2,7 @@
  This is an interpreter for Oof made in Kotlin. By itself it doesn't work, as it's meant to be used as a part of other projects.
 
 # What is Oof?
- Oof is a custom dialect of [Brainf**k](https://esolangs.org/wiki/Brainfuck), that name of which is inspired by [Ook!](https://esolangs.org/wiki/Ook!).
+ Oof is a custom dialect of [Brainf**k](https://esolangs.org/wiki/Brainfuck), the name of which is inspired by [Ook!](https://esolangs.org/wiki/Ook!).
  
  ## Syntax
   Oof has a very simple to remember syntax:
